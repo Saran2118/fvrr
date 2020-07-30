@@ -1,0 +1,115 @@
+header{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+}
+.explore h2{
+    font-size: 40px;
+}
+a.btn-outline-light:hover{
+    color: black !important;
+}
+.title p{
+    font-size: 20px;
+}
+.caption{
+    min-height: 25rem;
+}
+.explore p{
+    font-size: 20px;
+}
+.category{
+    padding-bottom: 60px;
+    overflow: hidden;
+    height: calc(auto+30px);
+}
+.category h3:before{
+    content: "";
+    display: block;
+    margin: 5px auto 20px auto;
+    height: 1px;
+    width: 60px;
+    background-color: #00b30c;
+    transition: all .3s ease;
+}
+.category:hover h3:before{
+    width: 180px;
+}
+.category p{
+    opacity: 0;
+    padding-top: 60px;
+    transition: all .3s ease;
+}
+.category:hover p{
+    opacity: 1;
+    display: block;
+    padding-top: 10px;
+    color:rgb(126, 89, 89);
+}
+.pro{
+    background-color:  #353537;
+}
+.title h3{
+    font-weight: 500;
+    font-size: 50px;
+}
+.fstep .title p{
+    font-size: 17px;
+}
+.row .bg1{
+    background-image: url(../img/service_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+.row .bg2{
+    background-image: url(../img/service_5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+.row .bg3{
+    background-image: url(../img/service_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+.row .bg4{
+    background-image: url(../img/service_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+.row .bg5{
+    background-image: url(../img/service_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+.left{
+    margin-left: 7%;
+}
+.your{
+   background-color:#353537 ;
+}
+.display .p{
+    font-size: 35px;
+    font-weight: 350;
+    margin-top: 30%;
+}
+.display .p1{
+    margin-bottom: 30%;
+    font-size: 18px;
+}
+.mycarousel{
+    background-color: #7a898d2a;
+}
+.footul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.saran{
+    font-size: 30px;
+    font-weight: 400;
+}
